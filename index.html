@@ -1,16 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/src/assets/styles/style.css">
     <title>IT WEBSITE</title>
-    <link rel="stylesheet" href="index.css">
 </head>
-
 <body>
     
     <header class="header">
         <div class="container">
-            <div class="symbol">
+            <div class="logo">
                 <h1>IT WEBSITE</h1>
             </div>
             <nav class="nav">
@@ -23,12 +23,13 @@
                 </ul>
             </nav>
             <div class="contacts">
-                <div class="phone number">
-                    <img src="/src/assets/img\Phone.png" alt="">
+                <div class="phone-number">
+                    <img src="src/assets/img/smartphone.svg" alt="">
+                    <span>+7 (111) 111 11 11</span>
                     <span>+7 (111) 111 11 11</span>
                 </div>
                 <div class="email">
-                    <img src="/src/assets/img\mail.png" alt="">
+                    <img src="src/assets/img/mail.svg" alt="">
                     <span>itcompany@mail.com</span>
                 </div>
             </div>
@@ -37,21 +38,21 @@
 
     <main class="main">
         
-        <section class="about-us">
+        <section class="about-us common-section">
             <div class="container">
-                <div class="atLeftPosFrame">
+                <div class="left-block">
                     <div class="title">
                         <h2>Development of <span>mobile applications</span> and <span>web services</span> of any complexity</h2>
                         <p>We create mobile applications for iOS, Android that transfer your business to mobile applications of your customers' devices</p>
                     </div>
-                    <div class="contact">
+                    <div class="contact-form">
                         <h3>Leave your contacts and we will call you back within 30 minutes</h3>
                         <form action="#" class="form">
-                            <div class="label1">
+                            <div class="form-label">
                                 <label for="phone">Phone number</label>
                                 <input type="phone" id="phone" value="+7 (111) 111 11 11">
                             </div>
-                            <div class="label2">
+                            <div class="form-label">
                                 <label for="name">Full name</label>
                                 <input type="text" id="name" value="Иван Иванов">
                             </div>
@@ -59,133 +60,132 @@
                         </form>
                     </div>
                 </div>
-                <div class="atRightPosFrame">
+                <div class="right-block">
                     <div class="bg-images">
-                        <img src="/src/assets/img\image-1.png" alt="">
-                        <img src="/src/assets/img\image-2.png" alt="">
-                        <img src="/src/assets/img\image-3.png" alt="">
-                        <img src="/src/assets/img\image-4.png" alt="">
-                        <img src="/src/assets/img\image-5.png" alt="">
-                        <img src="/src/assets/img\image-6.png" alt="">
+                        <img src="/src/assets/img/bg-image-1.jpg" alt="">
+                        <img src="/src/assets/img/bg-image-2.jpg" alt="">
+                        <img src="/src/assets/img/bg-image-3.jpg" alt="">
+                        <img src="/src/assets/img/bg-image-4.jpg" alt="">
+                        <img src="/src/assets/img/bg-image-5.jpg" alt="">
+                        <img src="/src/assets/img/bg-image-6.jpg" alt="">
                     </div>
                 </div>
             </div>
         </section>
         
-        <section class="development section">
-            <div class="containerColorWhite">
+        <section class="development-cycle common-section common-section--white">
+            <div class="container container--white">
                 <div class="title">
                     <h2>Full development cycle</h2>
                     <p>We use proven technologies</p>
                     <h3>Web</h3>
-                    <p>PHP / Javascript / Node.JS / Web Socket / Socket.io / Vue.js/ Nuxt / MySQL / Laravel / GO lang / django / Python</p>
+                    <p>PHP <span>/</span> Javascript <span>/</span> Node.JS <span>/</span> Web Socket <span>/</span> Socket.io <span>/</span> Vue.js<span>/</span> 
+                        <br> Nuxt <span>/</span> MySQL <span>/</span> Laravel <span>/</span> GO lang <span>/</span> django <span>/</span> Python</p>
                     <h3>Mobile</h3>
-                    <p>Swift / Kotlin / Alamofire / Firebase / CoreData / Room / Realm / Coroutine / RxJava / RxSwift / Unit Test / Navigation</p>
+                    <p>Swift <span>/</span> Kotlin <span>/</span> Alamofire <span>/</span> Firebase <span>/</span> CoreData <span>/</span> Room <span>/</span> Realm <span>/</span> 
+                        <br> Coroutine <span>/</span> RxJava <span>/</span> RxSwift <span>/</span> Unit Test <span>/</span> Navigation</p>
                 </div>
                 <div class="links">
                     <ul>
-                        <li><a href="#">iOS development</a></li>
-                        <li><a href="#">Android development</a></li>
-                        <li><a href="#">Web development</a></li>
-                        <li><a href="#">UI/UX design</a></li>
-                        <li><a href="#">Testing</a></li>
-                        <li><a href="#">Launch</a></li>
-                        <li><a href="#">IT consulting</a></li>
+                        <li><a href="#">iOS development</a><img src="./src/assets/img/arrow.svg"></li>
+                        <li><a href="#">Android development</a><img src="./src/assets/img/arrow.svg"></li>
+                        <li><a href="#">Web development</a><img src="./src/assets/img/arrow.svg"></li>
+                        <li><a href="#">UI/UX design</a><img src="./src/assets/img/arrow.svg"></li>
+                        <li><a href="#">Testing</a><img src="./src/assets/img/arrow.svg"></li>
+                        <li><a href="#">Launch</a><img src="./src/assets/img/arrow.svg"></li>
+                        <li><a href="#">IT consulting</a><img src="./src/assets/img/arrow.svg"></li>
                     </ul>
                 </div>
             </div>
         </section>
-        <hr>
 
-        <section class="projects">
+        <section class="developed-projects common-section">
             <div class="container">
                 <div class="title">
                     <h2>Developed more than 100 projects in 15 industries</h2>
                 </div>
-                <div class="ind">
-                    <div class="column">
+                <div class="industries">
+                    <div class="col">
                         <ul>
                             <li>
-                                <img src="/src/assets/img\Social media.png" alt="">
-                                <strong>Social media</strong>
+                                <img src="src/assets/img/narrative_active.svg" alt="">
+                                <span>Social media</span>
                             </li>
                             <li>
-                                <img src="/src/assets/img\Fitness.png" alt="">
-                                <strong>Fitness and sport</strong>
+                                <img src="src/assets/img/ball_outline_24.svg" alt="">
+                                <span>Fitness and sport</span>
                             </li>
                             <li>
-                                <img src="/src/assets/img\Bank.png" alt="">
-                                <strong>Bank</strong>
+                                <img src="src/assets/img/bank_outline_24.svg" alt="">
+                                <span>Bank</span>
                             </li>
                             <li>
-                                <img src="/src/assets/img\Construction.png" alt="">
-                                <strong>Construction</strong>
+                                <img src="src/assets/img/employee_outline_24.svg" alt="">
+                                <span>Construction</span>
                             </li>
                             <li>
-                                <img src="/src/assets/img\Game.png" alt="">
-                                <strong>Game projects</strong>
+                                <img src="src/assets/img/game_outline_24.svg" alt="">
+                                <span>Game projects</span>
                             </li>
                         </ul>
                     </div>
-                    <div class="column">
+                    <div class="col">
                         <ul>
                             <li>
-                                <img src="/src/assets/img\Education.png" alt="">
-                                <strong>Education</strong>
+                                <img src="src/assets/img/education_outline_24.svg" alt="">
+                                <span>Education</span>
                             </li>
                             <li>
                                 <img src="src/assets/img/car_outline_24.svg" alt="">
                                 <span>Auto, transport</span>
                             </li>
                             <li>
-                                <img src="/src/assets/img\Medicine.png" alt="">
-                                <strong>Medicine, health</strong>
+                                <img src="src/assets/img/health_outline_24.svg" alt="">
+                                <span>Medicine, health</span>
                             </li>
                             <li>
-                                <img src="/src/assets/img\Restaurants.png" alt="">
-                                <strong>Restaurants, food delivery</strong>
+                                <img src="src/assets/img/bowl_sticks_outline_24.svg" alt="">
+                                <span>Restaurants, food delivery</span>
                             </li>
                             <li>
-                                <img src="/src/assets/img\Marketplaces.png" alt="">
-                                <strong>Marketplaces</strong>
+                                <img src="src/assets/img/market_outline.svg" alt="">
+                                <span>Marketplaces</span>
                             </li>
                         </ul>
                     </div>
-                    <div class="column">
+                    <div class="col">
                         <ul>
                             <li>
-                                <img src="/src/assets/img\technology.png" alt="">
-                                <strong>AR technology</strong>
+                                <img src="src/assets/img/live_outline_24.svg" alt="">
+                                <span>AR technology</span>
                             </li>
                             <li>
-                                <img src="/src/assets/img\TV series.png" alt="">
-                                <strong>TV series</strong>
+                                <img src="src/assets/img/video_outline_24.svg" alt="">
+                                <span>TV series</span>
                             </li>
                             <li>
-                                <img src="/src/assets/img\Startups.png" alt="">
-                                <strong>Startups</strong>
+                                <img src="src/assets/img/work_outline_24.svg" alt="">
+                                <span>Startups</span>
                             </li>
                             <li>
-                                <img src="/src/assets/img\Religion.png" alt="">
-                                <strong>Religion</strong>
+                                <img src="src/assets/img/magic_wand_outline_24.svg" alt="">
+                                <span>Religion</span>
                             </li>
                             <li>
-                                <img src="/src/assets/img\Online cources.png" alt="">
-                               <strong>Online cources</strong> 
+                                <img src="src/assets/img/video_circle_outline_24.svg" alt="">
+                                <span>Online cources</span>
                             </li>
                         </ul>
                     </div>
                 </div>
             </div>
         </section>
-        <hr>
 
-        <section class="projectsP">
+        <section class="proud-projects common-section">
             <div class="container">
                 <div class="title">
                     <h2>Projects we are proud of</h2>
-                    <p>Our software development company is truly proud of the wonderful 
-                        clients we have worked with. We enjoy a long-term partnership</p>
+                    <p>Our software development company is truly proud of the wonderful clients we have worked with. We enjoy a long-term partnership</p>
                 </div>
                 <div class="projects">
                     <ul class="projects">
@@ -199,46 +199,39 @@
                     </ul>
                     <a href="#">View 100 more projects</a>
                 </div>
-                <div class="about project">
+                <div class="about-project">
                     <div class="title">
                         <h2>I-teka</h2>
-                        <p>The application is designed to search for drugs by availability 
-                            in pharmacies in cities. During quarantine, the application helped many people, which gives more value.
-                        </p>
+                        <p>The application is designed to search for drugs by availability in pharmacies in cities. During quarantine, the application helped many people, which gives more value.</p>
                     </div>
                     <p>Business analysis / iOS / Android / QA / UI/UX Design</p>
                     <div class="country">
-                        <img src="/src/assets/img\image-1.png" alt="">
+                        <img src="src/assets/img/place_outline_24.svg" alt="">
                         <span>Kazakhstan</span>
                     </div>
                     <div class="industry">
-                        <img src="/src/assets/img\image-1.png" alt="">
+                        <img src="src/assets/img/work_outline_24.svg" alt="">
                         <span>Medicine</span>
                     </div>
                     <div class="statistics">
                         <p>400% User Growth</p>
                         <p>+ 200 000 Active Users</p>
                     </div>
-                    <div class="link">
-                        
-                        <button type="submit" >загрузите в App Store</button>
-                        
-                        <button type="submit" >GET IN ON Google Play</button>
+                    <div class="download-links">
+                        <img src="src/assets/img/app-store.svg" alt="">
+                        <img src="src/assets/img/google_play.svg" alt="">
                     </div>
                 </div>
             </div>
         </section>
-        <hr>
 
-        <section class="projectD">
+        <section class="discuss-project">
             <div class="container">
                 <div class="title">
                     <h2>Let's discuss Your project</h2>
-                    <p>Let's figure out how to create an effective 
-                        application, its cost and terms of its development
-                    </p>
+                    <p>Let's figure out how to create an effective application, its cost and terms of its development</p>
                 </div>
-                <div class="contact">
+                <div class="contact-form">
                     <form action="#">
                         <label for="phone">Best phone number</label>
                         <input type="phone" id="phone">
@@ -249,116 +242,99 @@
                 </div>
             </div>
         </section>
-        <hr>
 
-        <section class="stagesD">
+        <section class="development-stages">
             <div class="container">
                 <div class="title">
                     <h3>Application Development Stages</h3>
                 </div>
                 <div class="cards">
                     <div class="card">
-                        <div class="card name">
-                            <img src="/src/assets/img/planing.png" alt="">
-                            <h4>Analysis</h4>
+                        <div class="name-card">
+                            <img src="src/assets/img/planing.svg" alt="">
+                            <p>Analysis</p>
                         </div>
-                        <p>We write technical specifications for development, 
-                            taking into account the business processes and technologies of the customer and the needs of users.
-                        </p>
+                        <p>We write technical specifications for development, taking into account the business processes and technologies of the customer and the needs of users.</p>
                     </div>
                     <div class="card">
-                        <div class="card name">
-                            <img src="/src/assets/img/graphic-design.png" alt="">
-                            <h4>Design</h4>
+                        <div class="name-card">
+                            <img src="src/assets/img/graphic-design.svg" alt="">
+                            <p>Design</p>
                         </div>
-                        <p>We adapt the customer's corporate identity to the platform guidelines. 
-                            We draw convenient and understandable interfaces.</p>
+                        <p>We adapt the customer's corporate identity to the platform guidelines. We draw convenient and understandable interfaces.</p>
                     </div>
                     <div class="card">
-                        <div class="card name">
-                            <img src="/src/assets/img/coding-language.png" alt="">
-                            <h4>Development</h4>
+                        <div class="name-card">
+                            <img src="src/assets/img/coding-language.svg" alt="">
+                            <p>Development</p>
                         </div>
-                        <p>We create an extensible architecture, write clean and stable code. 
-                            We integrate with customer technologies.</p>
+                        <p>We create an extensible architecture, write clean and stable code. We integrate with customer technologies.</p>
                     </div>
                     <div class="card">
-                        <div class="card name">
-                            <img src="/src/assets/img/security.png" alt="">
-                            <h4>Testing</h4>
+                        <div class="name-card">
+                            <img src="src/assets/img/security.svg" alt="">
+                            <p>Testing</p>
                         </div>
-                        <p>We carry out functional testing and do bug fixes. We adapt 
-                            the application to different phone resolutions</p>
+                        <p>We carry out functional testing and do bug fixes. We adapt the application to different phone resolutions</p>
                     </div>
                     <div class="card">
-                        <div class="card name">
-                            <img src="/src/assets/img/hosting .png" alt="">
-                            <h4>Launching</h4>
+                        <div class="name-card">
+                            <img src="src/assets/img/hosting 1.svg" alt="">
+                            <p>Launching</p>
                         </div>
-                        <p>We design the application page and publish it in the App Store and Google Play stores.
-                            
-                        </p>
+                        <p>We design the application page and publish it in the App Store and Google Play stores.</p>
                     </div>
                     <div class="card">
-                        <div class="card name">
-                            <img src="/src/assets/img/application.png" alt="">
-                            <h4>Support</h4>
+                        <div class="name-card">
+                            <img src="src/assets/img/application.svg" alt="">
+                            <p>Support</p>
                         </div>
-                        <p>We monitor the stability of the application, update it for new devices and versions of 
-                            iOS and Android.
-                        </p>
+                        <p>We monitor the stability of the application, update it for new devices and versions of iOS and Android.</p>
                     </div>
                 </div>
             </div>
         </section>
-        <hr>
 
-        <section class="our team">
+        <section class="team common-section">
             <div class="container">
                 <div class="title">
                     <h2>Our team</h2>
-                    <p>Thousand is a full-cycle digital production company with its own product analytics, 
-                        design, web and mobile development.
-                    </p>
+                    <p>Thousand is a full-cycle digital production company with its own product analytics, design, web and mobile development.</p>
                 </div>
                 <div class="statistics">
                     <span>28 team members</span>
                     <span>+100 projects</span>
                     <span>7 years in IT sphere</span>
-                    <p>All the necessary specialists - from a designer to a tester - are on our staff. 
-                        We hire the best specialists in the market. It's expensive but worth it
-                    </p>
+                    <p>All the necessary specialists - from a designer to a tester - are on our staff. We hire the best specialists in the market. It's expensive but worth it</p>
                 </div>
                 <div class="video">
-                    <img src="/src/assets/img/team-video.png" alt="">
+                    <img src="src/assets/img/team-video.png" alt="">
                 </div>
             </div>
         </section>
-        <hr>
 
-        <section class="books">
+        <section class="get-book">
             <div class="container">
                 <div class="title">
                     <h2>Get the book for free by leaving your contacts</h2>
                 </div>
-                <div class="contact">
+                <div class="contact-form">
                     <form action="#">
                         <label for="phone">Phone number</label>
                         <input type="phone" id="phone">
                         <input type="text" id="name" value="Your full name">
-                        <label for="email">Email</label>
+                        <label for="email"></label>
                         <input type="email" id="email">
                         <input type="submit" value="Send me ebook to my mail">
                     </form>
                 </div>
                 <div class="image">
-                    <img src="/src/assets/img/book.png" alt="">
+                    <img src="src/assets/img/book.png" alt="">
                 </div>
             </div>
         </section>
-        <hr>
 
-        <section class="cost">
+        <section class="faq">
             <div class="container">
                 <div class="question">
                     <h3>What is the cost of a mobile application?</h3>
@@ -370,14 +346,11 @@
                 </div>
                 <div class="question">
                     <h3>How long will development take?</h3>
-                    <p>Development terms directly depend on the requirements for the mobile application, 
-                        the characteristics of the company, as well as the wishes of the customer.
+                    <p>Development terms directly depend on the requirements for the mobile application, the characteristics of the company, as well as the wishes of the customer.
                         Average development time from start to finished application:
                         Medium projects up to 3 months.
                         Large projects about 4-6 months.
-                        To get a more accurate estimate of the project completion time, it is necessary to 
-                        determine the main task of the application, think over its logic and functionality.
-                    </p>
+                        To get a more accurate estimate of the project completion time, it is necessary to determine the main task of the application, think over its logic and functionality.</p>
                 </div>
                 <div class="question">
                     <h3>I will not tell my idea, do you guarantee confidentiality?</h3>
@@ -385,51 +358,49 @@
                 </div>
             </div>
         </section>
-        <hr>
 
     </main>
-    <footer class="footer">
+    <footer class="footer common-section">
         <div class="container">
             <div class="logo">
                 <h1>IT WEBSITE</h1>
             </div>
-            <div class="companyInf">
+            <div class="company-info">
                 <div class="number">
-                    <div class="topInf">
-                        <img src="/src/assets/img/smartphone.png" alt="">
+                    <div class="top-info">
+                        <img src="src/assets/img/smartphone_outline_dark.svg" alt="">
                         <span>Contact nums</span>
                     </div>
                     <span>+7 (778) 395 90 26</span>
                 </div>
                 <div class="post">
-                    <div class="topInf">
-                        <img src="/src/assets/img/mail.png" alt="">
+                    <div class="top-info">
+                        <img src="src/assets/img/mail_outline_dark.svg" alt="">
                         <span>Post</span>
                     </div>
                     <span>mail@mail.com</span>
                 </div>
                 <div class="address">
-                    <div class="topInf">
-                        <img src="/src/assets/img/Address.png" alt="">
+                    <div class="top-info">
+                        <img src="src/assets/img/place_outline_dark.svg" alt="">
                         <span>Address</span>
                     </div>
                     <span>City city, steet st. 90</span>
                 </div>
                 <div class="request">
-                    <div class="topInf">
-                        <img src="/src/assets/img/img/document.png" alt="">
+                    <div class="top-info">
+                        <img src="src/assets/img/document_outline_dark.svg" alt="">
                         <span>Leave a request</span>
                     </div>
                     <span>Leave a request</span>
                 </div>
             </div>
             <div class="world">
-                <img src="/src/assets/img/img/logo.png" alt="">
+                <img src="src/assets/img/world.svg" alt="">
                 <span>We work throughout world</span>
             </div>
         </div>
     </footer>
-
-
+</div>
 </body>
 </html>
